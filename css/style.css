@@ -171,6 +171,35 @@ body {
   display: none;
 }
 
+#bg-content {
+  background-color: #fff;
+  width: 85%;
+}
+
+.bg-box {
+  padding-right: 90px;
+  padding-left: 90px;
+  margin-top: 90px;
+  margin-bottom: 90px;
+}
+
+.box-border {
+  border-right: 1px solid #979797;
+}
+
+.box-header {
+  color: #5538C8;
+  font-weight: bold;
+}
+
+.box-text {
+  font-size: 18px;
+}
+
+.fa-arrow-circle-right {
+  color: #5538C8;
+}
+
 @media screen and (max-width: 575px) { 
   #showcase {
     /* height: 100%; */
@@ -208,6 +237,12 @@ body {
   }
   #kathy-pic-3 {
     display: initial;
+  }
+  .bg-box {
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
 }
 
