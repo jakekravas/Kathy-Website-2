@@ -22,10 +22,6 @@ body {
   color: #333 !important;
 }
 
-.active {
-  color: #5538C8 !important;
-}
-
 .nav-link:hover {
   color: #5538C8 !important;
 }
@@ -269,7 +265,7 @@ body {
 }
 
 #contact-content {
-  padding-bottom: 30px;
+  padding-bottom: 32px;
 }
 
 .contact-icon {
