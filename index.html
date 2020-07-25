@@ -20,16 +20,19 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link" href="#">Home</a>
+            <a class="nav-link" href="#showcase">Home</a>
+          </li>
+          <li id="nav-about" class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li id="nav-about-mobile" class="nav-item">
+            <a class="nav-link" href="#about2">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
+            <a class="nav-link" href="#bg-header">Tutoring</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Tutoring</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
+            <a class="nav-link" href="#contact">Contact</a>
           </li>
         </ul>
       </div>
@@ -108,7 +111,7 @@
           <li class="mb-4">
             Essay writing (narrative, analytical/expository, argumentative)
           </li>
-          <li class="mb-4">services
+          <li class="mb-4">
             Illinois Common Core State Standards mastery
           </li>
           <li class="mb-4">
@@ -143,7 +146,7 @@
             Intervention instruction for those students needed extra support
           </li>
         </ul>
-        <h6 class="text-center text-muted">- Rates vary based on location, group size, grade level, & frequency. <a href="">Contact me</a> for more information.</h6>
+        <p id="rate-text" class="text-center text-muted">- Rates vary based on location, group size, grade level, & frequency. <a href="">Contact me</a> for more information.</p>
       </div>
     </div>
   </div>
@@ -182,7 +185,7 @@
 
         <!-- MOBILE CAROUSEL (SMALL SCREENS ONLY) -->
         <div id="t-content-mobile" class="mx-auto">
-          <div id="t-carousel-mobile" class="carousel slide carousel-fade" data-ride="carousel">
+          <div id="t-carousel-mobile" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
               <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
               <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -196,13 +199,13 @@
                 <h2>- Student 1</h2>
               </div>
               <div class="carousel-item">
-                <p>
+                <p class="quote">
                   “Quote 2. I'm a testimonial. Click to edit me and add text that says something nice about you and your services. Let your customers review you and tell their friends how great you are.”
                 </p>
                 <h2>- Student 2</h2>
               </div>
               <div class="carousel-item">
-                <p>
+                <p class="quote">
                   “Quote 3. I'm a testimonial. Click to edit me and add text that says something nice about you and your services. Let your customers review you and tell their friends how great you are.”
                 </p>
                 <h2>- Student 3</h2>
@@ -214,6 +217,35 @@
     </div>
   </section>
 
+  <section id="contact">
+    <div class="container">
+      <h1 id="contact-header">Contact Me</h1>
+      <div class="row text-center" id="contact-content">
+        <div class="col-sm-4 contact-col">
+          <i class="fas fa-phone-alt contact-icon"></i>
+          <h3>Phone Number</h3>
+          <h5>(847) 840-8112</h5>
+        </div>
+        <div class="col-sm-4 contact-col">
+          <i class="far fa-envelope contact-icon"></i>
+          <h3>Email Address</h3>
+          <h5>
+            <a href="mailto:katkravas05@gmail.com">
+              katkravas05@gmail.com
+            </a>
+          </h5>
+        </div>
+        <div class="col-sm-4 contact-col">
+          <a id="linkedin-link" href="https://www.linkedin.com/in/kathy-kravas-05362b3a?trk=people-guest_people_search-card" target="_blank">
+            <i class="fab fa-linkedin contact-icon"></i>
+            <h3>LinkedIn Profile</h3>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- <a href="mailto:jakekravas7@gmail.com">asdf</a> -->
   <script src="js/jquery.js"></script>
   <script src="js/bootstrap.js"></script>
   <script src="js/app.js"></script>
