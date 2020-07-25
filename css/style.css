@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Varta:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400&display=swap');
 
 body {
   box-sizing: border-box;
-  font-family: 'Varta', sans-serif;
+  /* font-family: 'Varta', sans-serif; */
+  font-family: 'Source Sans Pro', sans-serif;
   background-color: #f5f5f5 !important;
 }
 
@@ -194,10 +196,50 @@ body {
 
 .box-text {
   font-size: 18px;
+  font-weight: bold;
 }
 
-.fa-arrow-circle-right {
-  color: #5538C8;
+.box-ul {
+  list-style: square;
+  padding: 0;
+}
+
+#testimonials {
+  background-color: #5538C8;
+  color: #fff;
+  height: 500px;
+  display: flex;
+  align-items: center;
+}
+
+#t-header {
+  font-size: 72px;
+  font-weight: bold;
+  padding: 120px 60px;
+}
+
+#t-content {
+  font-size: 24px;
+  padding: 136px 40px;
+}
+
+#t-content-mobile {
+  display: none;
+  font-size: 24px;
+  padding: 136px 40px;
+}
+
+.quote {
+  margin-bottom: 45px;
+  font-weight: 300;
+}
+
+.carousel-indicators {
+  /* margin-bottom: 90px !important; */
+}
+
+#t-carousel-mobile {
+  height: 330px;
 }
 
 @media screen and (max-width: 575px) { 
@@ -229,7 +271,7 @@ body {
   }
   #about-text-2 {
     font-size: 26px;
-    margin: 20px;
+    margin: 10px;
     padding: 20px;
   }
   #kathy-pic-2 {
@@ -238,11 +280,43 @@ body {
   #kathy-pic-3 {
     display: initial;
   }
+  #bg-header {
+    margin-top: 70px;
+    margin-bottom: 16px;
+    font-size: 48px;
+  }
   .bg-box {
     padding-right: 10px;
     padding-left: 10px;
     margin-top: 10px;
     margin-bottom: 10px;
+  }
+  .box-border {
+    border: none;
+  }
+  .box-text {
+    font-size: 18px;
+  }
+  .box-ul {
+    padding-left: 30px;
+  }
+  #testimonials {
+    height: 630px;
+    margin-top: 50px;
+  }
+  #t-header {
+    font-size: 36px;
+    /* padding: 40px 20px 0 20px; */
+    padding: 0;
+    text-align: center;
+  }
+  #t-content {
+    display: none;
+    /* padding: 20px 40px; */
+  }
+  #t-content-mobile {
+    display: initial;
+    /* margin: 300px; */
   }
 }
 
