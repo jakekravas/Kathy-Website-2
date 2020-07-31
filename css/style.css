@@ -147,6 +147,11 @@ body {
   background-color: #fff;
 }
 
+#about-content-2 {
+  background-color: #fff;
+  padding-bottom: 20px;
+}
+
 #kathy-pic {
   width: 90%;
   margin-top: 27px;
@@ -300,6 +305,12 @@ body {
   color: #212529;
 }
 
+@media screen and (max-width: 365px) {
+  #showcase {
+    height: 65vh !important;
+  }
+}
+
 @media screen and (max-width: 575px) { 
   .nav-item {
     text-align: center;
@@ -312,8 +323,8 @@ body {
   }
   #showcase {
     /* height: 100%; */
-    height: 65vh;
-    padding-bottom: 20px;
+    height: 55vh;
+    /* padding-bottom: 90px; */
   }
   #showcase-content {
     margin-left: 0;
@@ -324,22 +335,22 @@ body {
   #showcase-header {
     font-size: 35px;
   }
-  #showcase-subtitle {
-    font-size: 30px;
+  .showcase-subtitle {
+    font-size: 18px;
   }
   #about-header-2 {
-    font-size: 60px;
+    font-size: 40px;
     margin-left: 0;
     text-align: center;
   }
-  #about-content-2 {
-    /* margin-right: 34px; */
-    /* margin-left: 34px; */
-  }
   #about-text-2 {
-    font-size: 26px;
+    font-size: 20px;
     margin: 10px;
     padding: 20px;
+  }
+  .bgs-text {
+    padding: 0 38px;
+    list-style: square;
   }
   #kathy-pic-2 {
     display: none;
@@ -360,9 +371,6 @@ body {
   }
   .box-border {
     border: none;
-  }
-  .box-text {
-    font-size: 18px;
   }
   .box-ul {
     padding-left: 30px;
@@ -396,7 +404,19 @@ body {
   }
 }
 
+@media screen and (max-width: 767px) {
+  #showcase-header {
+    font-size: 25px !important;
+  }
+  #showcase-content {
+    margin-left: 0;
+  }
+}
+
 @media screen and (max-width: 991px) { 
+  #showcase-header {
+    font-size: 45px;
+  }
   #about {
     display: none;
   }
