@@ -6,6 +6,12 @@ html {
   scroll-behavior: smooth;
 }
 
+:root {
+  /* --main-color: #29811d; */
+  /* --main-color: #026107; */
+  --main-color: #1c8a2e;
+}
+
 body {
   box-sizing: border-box;
   /* font-family: 'Varta', sans-serif; */
@@ -24,15 +30,15 @@ body {
 }
 
 .nav-link:hover {
-  color: #5e3fda !important;
+  color: var(--main-color) !important;
 }
 
 .nav-item .active {
-  color: #5538C8 !important;
+  color: var(--main-color) !important;
 }
 
 .navbar-brand {
-  color: #5538C8 !important;
+  color: var(--main-color) !important;
 }
 
 .navbar-toggler {
@@ -40,7 +46,7 @@ body {
 }
 
 /* .navbar-toggler-icon {
-  color: #5538C8 !important;
+  color: var(--main-color) !important;
 } */
 
 .navbar-toggler:focus {
@@ -66,7 +72,7 @@ body {
 
 #showcase {
   /* background: url('../img/download.png') no-repeat center center/cover; */
-  background: url('../img/download.png');
+  background: url('../img/AdobeStock_90550437-.jpeg');
   /* height: 100vh; */
 
   /* Set a specific height */
@@ -88,7 +94,7 @@ body {
 
 #showcase-header {
   font-family: 'Poppins', sans-serif;;
-  font-size: 70px;
+  font-size: 60px;
   margin-bottom: 22px;
 }
 
@@ -97,17 +103,19 @@ body {
 }
 
 #showcase-btn {
-  background-color: #5538C8;
+  background-color: var(--main-color);
   color: #fff;
   border-radius: 50px;
   padding: 13px 40px;
+  margin-top: 30px;
   font-size: 20px;
   border: none;
   transition: .3s;
 }
 
 #showcase-btn:hover {
-  background-color: #6246d3;
+  /* background-color: #6246d3; */
+  background-color: #1d752b;
 }
 
 .about {
@@ -120,7 +128,7 @@ body {
 #about-header {
   /* font-size: 70px; */
   font-size: 50px;
-  color: #5538C8;
+  color: var(--main-color);
   font-weight: bold;
   text-align: center;
   /* margin-left: 90px; */
@@ -129,7 +137,7 @@ body {
 
 #bg-header {
   font-size: 70px;
-  color: #5538C8;
+  color: var(--main-color);
   font-weight: bold;
   text-align: center;
   margin-top: 170px;
@@ -137,7 +145,7 @@ body {
 
 #about-header-2 {
   font-size: 60px;
-  color: #5538C8;
+  color: var(--main-color);
   font-weight: bold;
   /* margin-left: 90px; */
   text-align: center;
@@ -226,7 +234,7 @@ body {
 }
 
 .box-header {
-  color: #5538C8;
+  color: var(--main-color);
   font-weight: bold;
 }
 
@@ -242,11 +250,11 @@ body {
 
 .box-ul-sub {
   font-weight: initial;
-  font-size: 16px;
+  font-size: 15px;
 }
 
 #testimonials {
-  background-color: #5538C8;
+  background-color: var(--main-color);
   color: #fff;
   /* height: 500px; */
   height: 300px;
@@ -291,7 +299,7 @@ body {
 
 #contact-header {
   font-size: 40px;
-  color: #5538C8;
+  color: var(--main-color);
   font-weight: bold;
   text-align: center;
   margin-top: 90px;
