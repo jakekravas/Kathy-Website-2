@@ -112,6 +112,7 @@ body {
 
 .about {
   margin-top: 160px;
+  margin-bottom: 100px;
   /* padding-left: 30px;
   padding-right: 30px; */
 }
@@ -216,11 +217,11 @@ body {
 .bg-box {
   padding-right: 90px;
   padding-left: 90px;
-  margin-top: 90px;
-  margin-bottom: 70px;
+  margin-top: 50px;
+  /* margin-bottom: 70px; */
 }
 
-.box-border {
+.bg-box-border {
   border-right: 1px solid #979797;
 }
 
@@ -230,7 +231,7 @@ body {
 }
 
 .box-text {
-  font-size: 18px;
+  font-size: 17px;
   font-weight: bold;
 }
 
@@ -239,23 +240,28 @@ body {
   padding: 0;
 }
 
-#rate-text {
-  font-size: 14px;
+.box-ul-sub {
+  font-weight: initial;
+  font-size: 16px;
 }
 
 #testimonials {
   background-color: #5538C8;
   color: #fff;
-  height: 500px;
+  /* height: 500px; */
+  height: 300px;
+  border-radius: 5px;
   display: flex;
   align-items: center;
   margin-top: 90px;
 }
 
 #t-header {
-  font-size: 72px;
+  text-align: center;
+  padding-top: 110px;
+  font-size: 53px;
   font-weight: bold;
-  padding: 120px 60px;
+  /* padding: 120px 60px; */
 }
 
 #t-content {
@@ -305,9 +311,36 @@ body {
   color: #212529;
 }
 
-@media screen and (max-width: 365px) {
-  #showcase {
-    height: 65vh !important;
+@media screen and (max-width: 1300px) { 
+  .bg-box {
+    padding-right: 50px;
+    padding-left: 50px;
+    margin-top: 50px;
+    /* margin-bottom: 70px; */
+  }
+}
+
+@media screen and (max-width: 991px) { 
+  #showcase-header {
+    font-size: 45px;
+  }
+  #about {
+    display: none;
+  }
+  #about2 {
+    display: initial;
+  }
+  #about-text {
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  #showcase-header {
+    font-size: 25px !important;
+  }
+  #showcase-content {
+    margin-left: 0;
   }
 }
 
@@ -348,6 +381,12 @@ body {
     margin: 10px;
     padding: 20px;
   }
+  .bg-box {
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-top: 50px;
+    /* margin-bottom: 70px; */
+  }
   .bgs-text {
     padding: 0 38px;
     list-style: square;
@@ -376,7 +415,8 @@ body {
     padding-left: 30px;
   }
   #testimonials {
-    height: 630px;
+    /* height: 630px; */
+    height: 530px;
     margin-top: 50px;
   }
   #t-header {
@@ -404,26 +444,8 @@ body {
   }
 }
 
-@media screen and (max-width: 767px) {
-  #showcase-header {
-    font-size: 25px !important;
-  }
-  #showcase-content {
-    margin-left: 0;
-  }
-}
-
-@media screen and (max-width: 991px) { 
-  #showcase-header {
-    font-size: 45px;
-  }
-  #about {
-    display: none;
-  }
-  #about2 {
-    display: initial;
-  }
-  #about-text {
-    padding: 0;
+@media screen and (max-width: 365px) {
+  #showcase {
+    height: 65vh;
   }
 }
