@@ -51,8 +51,17 @@ body {
   display: none;
 }
 
-#name {
+#logo {
   font-weight: bold;
+}
+
+#logo-area {
+  display: flex;
+  align-items: center;
+}
+
+#area {
+  font-size: 16px;
 }
 
 #showcase {
@@ -83,8 +92,8 @@ body {
   margin-bottom: 22px;
 }
 
-#showcase-subtitle {
-  font-size: 40px;
+.showcase-subtitle {
+  font-size: 20px;
 }
 
 #showcase-btn {
@@ -108,10 +117,12 @@ body {
 }
 
 #about-header {
-  font-size: 70px;
+  /* font-size: 70px; */
+  font-size: 50px;
   color: #5538C8;
   font-weight: bold;
-  margin-left: 90px;
+  text-align: center;
+  /* margin-left: 90px; */
   margin-bottom: 0;
 }
 
@@ -127,7 +138,8 @@ body {
   font-size: 60px;
   color: #5538C8;
   font-weight: bold;
-  margin-left: 90px;
+  /* margin-left: 90px; */
+  text-align: center;
   margin-bottom: 0;
 }
 
@@ -146,7 +158,7 @@ body {
 
 #about-text {
   font-size: 20px;
-  padding: 60px 40px 50px 70px;
+  padding: 60px 40px 30px 70px;
   margin: 0;
   color: #333;
 }
@@ -180,6 +192,11 @@ body {
 #kathy-pic-3 {
   display: none;
   height: 450px;
+}
+
+.bgs-text {
+  padding: 0 80px;
+  font-weight: bold;
 }
 
 #about2 {
@@ -238,7 +255,8 @@ body {
 
 #t-content {
   font-size: 24px;
-  padding: 136px 40px;
+  /* padding: 136px 40px; */
+  padding: 40px 20px;
 }
 
 #t-content-mobile {
@@ -261,7 +279,7 @@ body {
 }
 
 #contact-header {
-  font-size: 60px;
+  font-size: 40px;
   color: #5538C8;
   font-weight: bold;
   text-align: center;
@@ -274,7 +292,8 @@ body {
 }
 
 .contact-icon {
-  font-size: 38px;
+  /* font-size: 38px; */
+  font-size: 28px;
 }
 
 #linkedin-link {
