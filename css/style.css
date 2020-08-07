@@ -2,10 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400&display=swap');
 
-html {
-  scroll-behavior: smooth;
-}
-
 :root {
   /* --main-color: #29811d; */
   /* --main-color: #026107; */
@@ -49,10 +45,6 @@ body {
   color: var(--main-color) !important;
 } */
 
-.navbar-toggler:focus {
-  outline: none;
-}
-
 #nav-about-mobile {
   display: none;
 }
@@ -73,11 +65,9 @@ body {
 #showcase {
   /* background: url('../img/download.png') no-repeat center center/cover; */
   background: url('../img/AdobeStock_90550437-.jpeg');
-  /* height: 100vh; */
 
   /* Set a specific height */
   height: 500px;
-  /* width: 100%; */
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
@@ -161,13 +151,22 @@ body {
   padding-bottom: 20px;
 }
 
-#kathy-pic {
+/* #kathy-pic {
   width: 90%;
   margin-top: 27px;
   margin-left: 55px;
   z-index: 9;
   position: relative;
-  /* height: 80%; */
+} */
+
+#kathy-pic {
+  height: 180px;
+  float: left;
+  display: block;
+  margin-top: 5px;
+  margin-right: 25px;
+  margin-bottom: 25px;
+  border-radius: 2px;
 }
 
 #about-text {
@@ -256,7 +255,6 @@ body {
 #testimonials {
   background-color: var(--main-color);
   color: #fff;
-  /* height: 500px; */
   height: 300px;
   border-radius: 5px;
   display: flex;
@@ -269,12 +267,10 @@ body {
   padding-top: 110px;
   font-size: 53px;
   font-weight: bold;
-  /* padding: 120px 60px; */
 }
 
 #t-content {
   font-size: 24px;
-  /* padding: 136px 40px; */
   padding: 40px 20px;
 }
 
@@ -311,7 +307,6 @@ body {
 }
 
 .contact-icon {
-  /* font-size: 38px; */
   font-size: 28px;
 }
 
@@ -363,8 +358,8 @@ body {
     display: initial;
   }
   #showcase {
-    /* height: 100%; */
-    height: 55vh;
+    /* height: 90%; */
+    height: 400px;
     /* padding-bottom: 90px; */
   }
   #showcase-content {
@@ -439,13 +434,6 @@ body {
   }
   #t-content-mobile {
     display: initial;
-    /* margin: 300px; */
-  }
-  .quote {
-    /* padding: 0px 30px; */
-    /* padding: 30px 0px; */
-    /* padding-right: 90px;
-    padding-left: 90px; */
   }
   .contact-col {
     padding: 23px 0;
@@ -454,6 +442,9 @@ body {
 
 @media screen and (max-width: 365px) {
   #showcase {
-    height: 65vh;
+    height: 500px;
+  }
+  #about-text-2 {
+    font-size: 17px;
   }
 }
