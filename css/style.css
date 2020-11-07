@@ -264,9 +264,14 @@ body {
 
 #t-header {
   text-align: center;
-  padding-top: 110px;
+  padding-top: 15%;
   font-size: 53px;
   font-weight: bold;
+}
+
+.tt {
+  /* display: flex !important;
+  align-content: center !important; */
 }
 
 #t-content {
